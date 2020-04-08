@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Restaurant-Psd</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Ubuntu:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
+    <script src="https://kit.fontawesome.com/91677cab54.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="home">
+        <nav>
+            <div class="row">
+                <a href="">
+                    <img src="resources/img/logo.png" alt="Logo">
+                </a>
+                <ul class="main-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Our Menu</a></li>
+                    <li><a href="#promo">Promo</a></li>
+                    <li><a href="#order">Order</a></li>
+                    <li><a href="#delivery">Delivery</a></li>
+                    <li><a href="#about">About Us</a></li>
+
+
+
+                </ul>
+
+
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <a onclick="closeNav()" href="#home">Home</a>
+                        <a onclick="closeNav()" href="#menu">Our Menu</a>
+                        <a onclick="closeNav()" href="#promo">Promo</a>
+                        <a onclick="closeNav()" href="#order">order</a>
+                        <a onclick="closeNav()" href="#delivery">delivery</a>
+                        <a onclick="closeNav()" href="#about">about us</a>
+
+                    </div>
+                </div>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+            </div>
+        </nav>
+        <h1>Healthy Food <br>
+            Restaurant</h1>
+        <p>Lorem ipsum dolor sit amet, consectetuer <br>adipiscing elit.</p>
+
+    </header>
+    <section class="menu js-function" id="menu">
+        <h2>Popular Menu</h2>
+        <div class="row">
+            <div class="grid-container-3">
+                <div class="grid-col-3">
+                    <div class="grid-col-3-item">
+                        <img src="resources/img/menu1.png" alt="">
+                        <div class="price">
+                            <h4>Noodles</h4>
+
+                            <p>Lorem ipsum dolor sit amet,
+                                consectetur adipisicing...
+
+                            </p>
+
+                            <span>$13</span>
+                        </div>
+                    </div>
+                    <div class="grid-col-3-item">
+                        <img src="resources/img/menu2.png" alt="">
+                        <div class="price">
+                            <h4>Noodles</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing...
+
+                            </p>
+                            <span>$14</span>
+                        </div>
+                    </div>
+                    <div class="grid-col-3-item">
+                        <img src="resources/img/menu3.png" alt="">
+                        <div class="price">
+                            <h4>Noodles</h4>
+                            <p>Lorem ipsum dolor sit amet,
+                                consectetur adipisicing...
+
+                            </p>
+                            <span>$15</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>Show More</button>
+
+        </div>
+    </section>
+
+    <!--Discount section-->
+    <section class="discount js-function" id="promo">
+
+        <div class="grid-container-2">
+            <div class="grid-col-2">
+                <div class="grid-col-2-item item-1">
+                    <img src="resources/img/discount1.png" alt="">
+                </div>
+                <div class="grid-col-2-item item-2">
+                    <h2>Discount up to <br>
+                        50% All Menu</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <button>Show more</button>
+                </div>
+                <div class="grid-col-2-item item-3">
+                    <h2>January's Promo: <br>
+                        Buy 1 Get 1 Free!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <button>Show more</button>
+
+                </div>
+                <div class="grid-col-2-item item-4">
+                    <img src="resources/img/discount2.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="order js-function" id="order">
+        <h2>How To Order</h2>
+        <div class="row">
+            <div class="grid-container-order-3">
+                <div class="grid-order-3">
+                    <div class="grid-order-item">
+                        <h3>01</h3>
+                        <span>Order</span>
+                        <p>Lorem ipsum dolor sit amet, consecte sectetur <br> adipisicing elit, tation omne ullamco <br>laboris nisi ut aliqolore.</p>
+
+                    </div>
+                    <div class="grid-order-item">
+                        <h3>02</h3>
+                        <span>Choose Menu</span>
+                        <p>Lorem ipsum dolor sit amet, consecte sectetur <br>adipisicing elit, tation omne ullamco <br> laboris nisi ut aliqolore.</p>
+
+                    </div>
+                    <div class="grid-order-item">
+                        <h3>03</h3>
+                        <span>Delivery</span>
+                        <p>Lorem ipsum dolor sit amet, consecte sectetur <br>adipisicing elit, tation omne ullamco <br>laboris nisi ut aliqolore.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="delivery js-function" id="delivery">
+        <div class="row">
+            <h2>Free Delivery</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed <br> diam nonummy nibh euismod tincidunt ut laoreet dolore <br> magna aliquam erat volutpat.</p>
+            <button>Get Voucher</button>
+
+        </div>
+
+
+    </section>
+
+    <section class="icon">
+        <div class="row">
+            <img src="resources/img/quote.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed <br> do eiusmod tempor incididunt ut labore et dolore magna <br> aliqua. Ut enim ad minim veniam, quis </p>
+            <span>Agus Waiters</span>
+            <div class="icons">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section class="about js-function" id="about">
+        <div class="row">
+            <div class="grid-about-container">
+                <div class="grid-about-4">
+                    <div class="grid-about-item">
+                        <h4>About</h4>
+                        <p>Lorem ipsum dolor sit amet, consec <br>
+                            tetur adipisicing elit, sed do eiusmod tempor inci <br>didunt ultimam quantum</p>
+                    </div>
+                    <div class="grid-about-item">
+                        <h4>About</h4>
+                        <p>Team <br>join with us <br>Ethic <br>Goals</p>
+                    </div>
+                    <div class="grid-about-item">
+                        <h4>About</h4>
+                        <p>Team <br>join with us <br>Ethic <br>Goals</p>
+                    </div>
+                    <div class="grid-about-item">
+                        <h4>About</h4>
+                        <p>Team <br>join with us <br>Ethic <br>Goals</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="copyright">
+
+        <p>Copyright &copy; 2020. All Rights Reserved <br>
+            Made with by &copy; Ifthekar Sajal</p>
+    </section>
+
+
+    <script src="vendors/js/jquery-3.4.1.min.js"></script>
+    <script src="vendors/js/jquery-smooth-scroll.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/main.js"></script>
+</body>
+
+</html>
